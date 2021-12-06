@@ -50,6 +50,7 @@ export enum ChainId {
     Kovan = 42,
     Ganache = 1337,
     BSC = 56,
+    OptimisticKovan = 69,
     Polygon = 137,
     PolygonMumbai = 80001,
     Avalanche = 43114,
