@@ -15,7 +15,7 @@
     "types": "lib/src/index.d.ts",
     "scripts": {
         "build": "tsc -b",
-        "rebuild": "yarn wrappers:clean && yarn wrappers:generate && yarn wrappers:prettier && yarn build",
+        "rebuild": "npm run wrappers:clean && npm run wrappers:generate && npm run wrappers:prettier && npm run build",
         "build:ci": "yarn build",
         "publish:private": "yarn rebuild && gitpkg publish",
         "lint": "tslint --format stylish --project . --exclude **/lib/**/*",
